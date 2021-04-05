@@ -1,0 +1,136 @@
+body {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #151108;
+}
+
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    width: 1020px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header article {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.image-container {
+    position: relative;
+    height: 90px;
+    width: 83px;
+}
+
+.image-container__logo-bg {
+    position: absolute;
+}
+
+.image-container__logo {
+    position: absolute;
+    left: -2px;
+    top: -2px;
+}
+
+header h1 {
+    margin-top: 50px;
+}
+
+header p {
+    position: relative;
+    font-family: 'Lao UI';
+    font-size: 14px;
+    top: -18px;
+}
+
+header ul {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+header ul li a {
+    color: #9b7d08;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header ul li:first-child {
+    list-style-image: url('../resourses/aboutuspic.png');
+}
+
+header ul li:nth-child(2) {
+    list-style-image: url('../resourses/servicespic.png');
+}
+
+header ul li:last-child {
+    list-style-image: url('../resourses/contactpic.png');
+}
+
+.top-section {
+    height: 566px;
+    width: 100%;
+    background-image: url('../resourses/topheaderbg.png');
+}
+
+nav {
+    width: 44%;
+    position: relative;
+    top: 21px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-section__navbar-bg__backbg,
+.top-section__navbar-bg__secondbg,
+.top-section__navbar-bg__frontbg {
+    position: absolute;
+}
+
+.top-section__navbar-bg__frontbg {
+    left: -8px;
+    top: -8px;
+}
+
+.top-section__navbar-bg__secondbg {
+    left: -4px;
+    top: -4px;
+}
+
+.top-section__links {
+    position: relative;
+    z-index: 3;
+    top: -10px;
+}
+
+.top-section__links li:first-child {
+    height: 40px;
+}
+
+.top-section__tagline {
+    font-family: 'Asap', sans-serif;
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+    margin-right: 12%;
+    margin-top: 7%;
+    line-height: 30px;
+}
+
+.top-section__tagline h2:first-child {
+    color: #f5c506;
+}
+
+.top-section__tagline h2:last-child {
+    color: #fff;
+}
