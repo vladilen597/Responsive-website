@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
     <title>THEYALOW</title>
 </head>
 
 <body>
     <section class="top-section">
-        <header>
-            <article>
-                <div class="image-container">
-                    <img src="./resourses/logobg.png" alt="theyalow logo" class="image-container__logo-bg">
-                    <img src="./resourses/logo.png" alt="theyalow logo" class="image-container__logo">
+        <header class="top-section__header">
+            <article class="top-section__header__logo">
+                <div class="top-section__header__logo__image-container">
+                    <img src="./resourses/logobg.png" alt="theyalow logo" class="top-section__header__logo__image-container__logo-bg">
+                    <img src="./resourses/logo.png" alt="theyalow logo" class="top-section__header__logo__image-container__logo">
                 </div>
                 <h1><em>THEYALOW</em></h1>
                 <p>CRAFT BY CSS.AUTHOR.COM</p>
             </article>
             <nav>
                 <div class="top-section__navbar-bg">
-                    <img src="./resourses/navbg1.png" alt="" class="top-section__navbar-bg__backbg">
-                    <img src="./resourses/navbg2.png" alt="" class="top-section__navbar-bg__secondbg">
-                    <img src="./resourses/navbg3.png" alt="" class="top-section__navbar-bg__frontbg">
+                    <img src="./resourses/navbg1.png" class="top-section__navbar-bg__backbg">
+                    <img src="./resourses/navbg2.png" class="top-section__navbar-bg__secondbg">
+                    <img src="./resourses/navbg3.png" class="top-section__navbar-bg__frontbg">
                 </div>
                 <ul class="top-section__links">
                     <li><a href="#">ABOUT US</a></li>
@@ -40,9 +41,89 @@
             <h2>THE MINIMAL</h2>
         </article>
     </section>
+
     <main>
-        <section class="info-panel"></section>
+        <section class="info-panel">
+            <div class="info-panel__info-units">
+                <article class="info-panel__info-units__info1">
+                    <img src="./resourses/betterdesignpic.png" alt="better design picture">
+                    <h3>BETTER DESIGN</h3>
+                </article>
+                <article class="info-panel__info-units__info2">
+                    <img src="./resourses/customisepic.png" alt="customise picture">
+                    <h3>CUSTOMISE</h3>
+                </article>
+                <article class="info-panel__info-units__info3">
+                    <img src="./resourses/itsfreepic.png" alt="it's free picture">
+                    <h3>ITS FREE</h3>
+                </article>
+        </section>
+        </div>
+
+        <section class="info-blocks">
+            <h3 class="info-blocks__header">LOREM IPSUM DOLOR SIT AMET</h3>
+            <article class="info-blocks__units">
+                <article class="info-blocks__units__group">
+                    <div class="info-block__units__group__unit1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                    <div class="info-block__units__group__unit2">
+                        <img src="./resourses/videopic.png" alt="cartoon picture">
+                    </div>
+                </article>
+                <div class="info-block__units__unit3">
+                    <p>22</p>
+                    <img src="./resourses/twitterbird.png" alt="twitter bird">
+                </div>
+            </article>
+        </section>
     </main>
+
+    <footer class="footer">
+        <article class="footer__upper">
+            <h3 class="footer__upper__content__header">LOREM IPSUM DOLOR SIT AMET</h3>
+            <div class="footer__upper__content">
+
+                <section class="footer__upper__content__images">
+                    <div class="footer__upper__content__images__pc">
+                        <div class="footer__upper__content__images__pc__label">
+                            <p>ITS 100% FREE</p>
+                            <img src="./resourses/footercircle.png" alt="its 100% free background">
+                        </div>
+                        <img class="footer__upper__content__images__pc__image" src="./resourses/pc.png" alt="computer">
+                    </div>
+                </section>
+                <img class="footer__upper__content__images__tablet" src="./resourses/tablet.png" alt="tablet">
+                <img class="footer__upper__content__images__phone" src="./resourses/phone.png" alt="phone">
+
+                <section class="footer__upper__content__list">
+                    <ul>
+                        <li>
+                            <p>Sed ut perspiciatis unde omnis</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </li>
+                        <li>
+                            <p>Sed ut perspiciatis unde omnis</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </article>
+        <article class="footer__bottom">
+            <div class="footer__bottom__content">
+                <section class="footer__bottom__content__images">
+                    <img src="./resourses/logobg.png" alt="theyalow logo" class="footer__bottom__content__images__logo-bg">
+                    <img src="./resourses/logo.png" alt="theyalow logo" class="footer__bottom__content__images__logo">
+                </section>
+                <h3>THEYALOW</h3>
+            </div>
+        </article>
+    </footer>
 </body>
 
 </html>
