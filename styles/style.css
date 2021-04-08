@@ -360,7 +360,6 @@ nav ul li:last-child::before {
     }
     .cards__group {
         grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(2, 1fr);
         gap: 5px 0;
     }
     .cards__group__img-card img {
@@ -451,6 +450,11 @@ nav ul li:last-child::before {
     .cards {
         width: 100%;
     }
+    .info-units__better-design,
+    .info-units__customise,
+    .info-units__itsfree {
+        height: 100%;
+    }
 }
 
 @media (max-width: 640px) {
@@ -518,7 +522,7 @@ nav ul li:last-child::before {
         height: 170px;
     }
     .info-blocks {
-        height: 485px;
+        height: 100%;
     }
     .info-blocks__label {
         display: none;
@@ -534,8 +538,12 @@ nav ul li:last-child::before {
         background-color: #f5c507;
     }
     .cards__group__text-card p {
-        line-height: 35px;
-        font-size: 20px;
+        line-height: 25px;
+        font-size: 19px;
+        padding: 3px;
+    }
+    .footer__upper__label {
+        padding: 42px 0 20px 0;
     }
 }
 
@@ -563,7 +571,7 @@ nav ul li:last-child::before {
         height: 40px;
     }
     .info-units h3 {
-        font-size: 14px;
+        font-size: 12px;
     }
     .info-units__better-design,
     .info-units__customise,
@@ -572,6 +580,12 @@ nav ul li:last-child::before {
     }
     .info-panel {
         height: 130px;
+    }
+    .footer__upper__label {
+        font-size: 25px;
+    }
+    .cards__group__twitter-card img {
+        width: 150px;
     }
 }
 
