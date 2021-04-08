@@ -648,4 +648,14 @@ nav ul li:last-child::before {
     .cards__group__text-card p {
         font-size: 13px;
     }
+    .cards__group__twitter-card {
+        height: 200px;
+    }
+    .cards__group__twitter-card img {
+        width: 100px;
+    }
+    .footer__upper__label {
+        font-size: 18px;
+        padding-top: 15px;
+    }
 }
