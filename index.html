@@ -22,19 +22,19 @@
                     <h1><em>THEYALOW</em></h1>
                     <p>CRAFT BY CSS.AUTHOR.COM</p>
                 </article>
-                <nav>
-                    <ul class="header__links">
-                        <li><img src="./resources/aboutuspic.png" alt=""><a href="#">ABOUT US</a></li>
-                        <li><img src="./resources/servicespic.png" alt=""><a href="#">SERVICES</a></li>
-                        <li><img src="./resources/contactpic.png" alt=""><a href="#">CONTACT</a></li>
+                <nav class="navbar">
+                    <ul class="navbar__links">
+                        <li><img src="./resources/aboutuspic.png" alt="About us thumbnail"><a href="#">ABOUT US</a></li>
+                        <li><img src="./resources/servicespic.png" alt="Service thumbnail"><a href="#">SERVICES</a></li>
+                        <li><img src="./resources/contactpic.png" alt="Contact thumbnail"><a href="#">CONTACT</a></li>
                     </ul>
                 </nav>
             </header>
-            <img class="mobile-video" src="./resources/mobilevideo.png" alt="Video for mobile version">
-            <article class="top-section__container">
-                <div class="top-section__container__row">
-                    <h2 class="top-section__container__text-highlighted">THE COOL</h2>
-                    <h2 class="top-section__container__text">THE MINIMAL</h2>
+            <img class="top-section__mobile-video" src="./resources/mobilevideo.png" alt="Video for mobile version">
+            <article class="top-section__label">
+                <div class="top-section__row">
+                    <h2 class="top-section__label top-section__label__text-highlighted">THE COOL</h2>
+                    <h2 class="top-section__label top-section__label__text">THE MINIMAL</h2>
                 </div>
             </article>
         </section>
@@ -48,15 +48,15 @@
 
             <section class="info-panel">
                 <div class="info-units">
-                    <article class="info-units__better-design">
+                    <article class="info-units__card info-units__design">
                         <img src="./resources/betterdesignpic.png" alt="better design picture">
                         <h3>BETTER DESIGN</h3>
                     </article>
-                    <article class="info-units__customise">
+                    <article class="info-units__card info-units__customise">
                         <img src="./resources/customisepic.png" alt="customise picture">
                         <h3>CUSTOMISE</h3>
                     </article>
-                    <article class="info-units__itsfree">
+                    <article class="info-units__card info-units__itsfree">
                         <img src="./resources/itsfreepic.png" alt="it's free picture">
                         <h3>ITS FREE</h3>
                     </article>
@@ -71,13 +71,13 @@
                 <h3 class="info-blocks__label">LOREM IPSUM DOLOR SIT AMET</h3>
                 <article class="cards">
                     <article class="cards__group">
-                        <div class="cards__group__text-card">
+                        <div class="cards__text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
                         </div>
-                        <div class="cards__group__img-card">
+                        <div class="cards__img">
                             <img src="./resources/videopic.png" alt="cartoon picture">
                         </div>
-                        <div class="cards__group__twitter-card">
+                        <div class="cards__twitter">
                             <p>22</p>
                             <img src="./resources/twitterbird.png" alt="twitter bird">
                         </div>
@@ -91,15 +91,15 @@
     <section class="footer-bg">
 
         <footer class="footer">
-            <article class="footer__upper">
-                <h3 class="footer__upper__label">LOREM IPSUM DOLOR SIT AMET</h3>
-                <div class="footer__upper__container">
+            <article class="upper">
+                <h3 class="upper__label">LOREM IPSUM DOLOR SIT AMET</h3>
+                <div class="devices">
 
-                    <img class="footer__upper__container__pc" src="./resources/pc.png" alt="computer">
-                    <img class="footer__upper__container__tablet" src="./resources/tablet.png" alt="tablet">
-                    <img class="footer__upper__container__phone" src="./resources/phone.png" alt="phone">
+                    <img class="devices__pc" src="./resources/pc.png" alt="computer">
+                    <img class="devices__tablet" src="./resources/tablet.png" alt="tablet">
+                    <img class="devices__phone" src="./resources/phone.png" alt="phone">
 
-                    <section class="footer__upper__container__list">
+                    <section class="devices__list">
                         <ul>
                             <li>
                                 <p>Sed ut perspiciatis unde omnis</p>
@@ -117,10 +117,10 @@
                     </section>
                 </div>
             </article>
-            <article class="footer__bottom">
-                <div class="footer__bottom__container">
-                    <img src="./resources/logo.png" alt="THEYALOW logo">
-                    <h3><em>THEYALOW</em></h3>
+            <article class="bottom">
+                <div class="logo">
+                    <img src="./resources/logo.png" alt="THEYALOW logo" class="logo__image">
+                    <h3 class="logo__label"><em>THEYALOW</em></h3>
                 </div>
             </article>
         </footer>
