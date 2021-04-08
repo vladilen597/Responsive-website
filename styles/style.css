@@ -215,7 +215,8 @@ nav ul li:last-child::before {
 }
 
 .cards {
-    font-family: 'Segoe WP Light';
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     color: #fff;
     margin: 0 auto;
     width: 78%;
