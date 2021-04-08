@@ -13,50 +13,59 @@
 </head>
 
 <body>
-    <section class="top-bg">
+    <section class="top-background">
 
-        <section class="top-section">
-            <header class="header">
-                <article class="header__logo">
-                    <img src="./resources/logo.png" alt="THEYALOW logo">
-                    <h1><em>THEYALOW</em></h1>
-                    <p>CRAFT BY CSS.AUTHOR.COM</p>
+        <header class="header">
+            <section class="top-section">
+                <article class="header__tagline">
+                    <img class="header__logo" src="./resources/logo.png" alt="THEYALOW logo">
+                    <h1 class="header__title"><em>THEYALOW</em></h1>
+                    <p class="header__subtitle">CRAFT BY CSS.AUTHOR.COM</p>
                 </article>
                 <nav class="navbar">
-                    <ul class="navbar__links">
-                        <li><img src="./resources/aboutuspic.png" alt="About us thumbnail"><a href="#">ABOUT US</a></li>
-                        <li><img src="./resources/servicespic.png" alt="Service thumbnail"><a href="#">SERVICES</a></li>
-                        <li><img src="./resources/contactpic.png" alt="Contact thumbnail"><a href="#">CONTACT</a></li>
+                    <ul class="navbar__list">
+                        <li class="navbar__unit">
+                            <img class="navbar__image" src="./resources/aboutuspic.png" alt="About us thumbnail">
+                            <a class="navbar__link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="navbar__unit">
+                            <img class="navbar__image" src="./resources/servicespic.png" alt="Service thumbnail">
+                            <a class="navbar__link" href="#">SERVICES</a>
+                        </li>
+                        <li class="navbar__unit">
+                            <img class="navbar__image" src="./resources/contactpic.png" alt="Contact thumbnail">
+                            <a class="navbar__link" href="#">CONTACT</a>
+                        </li>
                     </ul>
                 </nav>
-            </header>
-            <img class="top-section__mobile-video" src="./resources/mobilevideo.png" alt="Video for mobile version">
-            <article class="top-section__label">
-                <div class="top-section__row">
-                    <h2 class="top-section__label top-section__label__text-highlighted">THE COOL</h2>
-                    <h2 class="top-section__label top-section__label__text">THE MINIMAL</h2>
-                </div>
-            </article>
-        </section>
+            </section>
+            <img class="header__mobile-video" src="./resources/mobilevideo.png" alt="Video for mobile version">
+
+            <div class="header__row">
+                <h2 class="header__label header__label__text-highlighted">THE COOL</h2>
+                <h2 class="header__label header__label__text">THE MINIMAL</h2>
+            </div>
+    </section>
+    </header>
 
 
     </section>
 
     <main>
 
-        <section class="info-panel-bg">
+        <section class="info-panel-background">
 
             <section class="info-panel">
                 <div class="info-units">
-                    <article class="info-units__card info-units__design">
+                    <article class="info-units__card">
                         <img src="./resources/betterdesignpic.png" alt="better design picture">
                         <h3>BETTER DESIGN</h3>
                     </article>
-                    <article class="info-units__card info-units__customise">
+                    <article class="info-units__card">
                         <img src="./resources/customisepic.png" alt="customise picture">
                         <h3>CUSTOMISE</h3>
                     </article>
-                    <article class="info-units__card info-units__itsfree">
+                    <article class="info-units__card">
                         <img src="./resources/itsfreepic.png" alt="it's free picture">
                         <h3>ITS FREE</h3>
                     </article>
@@ -65,10 +74,10 @@
 
         </section>
 
-        <section class="info-blocks-bg">
+        <section class="info-blocks-background">
 
             <section class="info-blocks">
-                <h3 class="info-blocks__label">LOREM IPSUM DOLOR SIT AMET</h3>
+                <h3 class="info-blocks__title">LOREM IPSUM DOLOR SIT AMET</h3>
                 <article class="cards">
                     <article class="cards__group">
                         <div class="cards__text">
@@ -88,7 +97,7 @@
         </section>
     </main>
 
-    <section class="footer-bg">
+    <section class="footer-background">
 
         <footer class="footer">
             <article class="upper">
@@ -118,9 +127,9 @@
                 </div>
             </article>
             <article class="bottom">
-                <div class="logo">
-                    <img src="./resources/logo.png" alt="THEYALOW logo" class="logo__image">
-                    <h3 class="logo__label"><em>THEYALOW</em></h3>
+                <div class="tagline">
+                    <img class="tagline__logo" src="./resources/logo.png" alt="THEYALOW logo">
+                    <h3 class="tagline__label"><em>THEYALOW</em></h3>
                 </div>
             </article>
         </footer>
