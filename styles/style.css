@@ -588,6 +588,15 @@ nav ul li:last-child::before {
         font-size: 16px;
         padding: 7px;
     }
+    .cards__group__twitter-card p {
+        font-size: 13px;
+    }
+    .cards__group__twitter-card {
+        height: 170px;
+    }
+    .cards__group__twitter-card img {
+        width: 100px;
+    }
 }
 
 @media (max-width: 538px) {
@@ -627,9 +636,6 @@ nav ul li:last-child::before {
     .footer__upper__label {
         font-size: 25px;
     }
-    .cards__group__twitter-card img {
-        width: 150px;
-    }
 }
 
 @media (max-width: 430px) {
@@ -647,12 +653,6 @@ nav ul li:last-child::before {
     }
     .cards__group__text-card p {
         font-size: 13px;
-    }
-    .cards__group__twitter-card {
-        height: 200px;
-    }
-    .cards__group__twitter-card img {
-        width: 100px;
     }
     .footer__upper__label {
         font-size: 18px;
