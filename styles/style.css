@@ -241,6 +241,12 @@ nav ul li:last-child::before {
     line-height: 40px;
 }
 
+.cards__group__img-card {
+    display: flex;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
 .cards__group__twitter-card {
     margin: 0 auto;
     background-color: #ec9e03;
@@ -602,5 +608,8 @@ nav ul li:last-child::before {
     }
     .header__logo h1 {
         font-size: 15px;
+    }
+    .cards__group__text-card p {
+        font-size: 13px;
     }
 }
