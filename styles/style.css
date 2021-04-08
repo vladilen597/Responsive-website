@@ -552,6 +552,42 @@ nav ul li:last-child::before {
     .footer__upper__label {
         padding: 42px 0 20px 0;
     }
+    .footer__upper__container {
+        display: flex;
+        align-items: flex-end;
+    }
+    .footer__upper__container {
+        width: 80%;
+    }
+    .footer__upper__container__pc {
+        width: 50%;
+    }
+    .footer__upper__container__tablet {
+        width: 15%;
+        height: 15%;
+        margin-bottom: 20px;
+    }
+    .footer__upper__container__phone {
+        width: 7%;
+        height: 7%;
+        margin-bottom: 20px;
+    }
+    .footer__upper {
+        height: 100%;
+    }
+    .footer__upper {
+        margin-bottom: 20px;
+    }
+    .footer__bottom {
+        height: 43px;
+    }
+    .footer__bottom__container img {
+        height: 31px;
+    }
+    .footer__bottom__container h3 {
+        font-size: 16px;
+        padding: 7px;
+    }
 }
 
 @media (max-width: 538px) {
