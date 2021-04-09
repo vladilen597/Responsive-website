@@ -259,7 +259,7 @@ body {
     width: 100%;
 }
 
-.upper {
+.upper-footer {
     max-width: 1300px;
     margin: 0 auto;
     height: 497px;
@@ -274,7 +274,7 @@ body {
     align-items: flex-end;
 }
 
-.upper__label {
+.upper-footer__label {
     margin: 0;
     text-align: center;
     font-family: 'PT Sans';
@@ -283,27 +283,45 @@ body {
     padding-top: 60px;
 }
 
-.devices__tablet,
-.devices__phone {
+.devices__image {
     margin-bottom: 40px;
 }
 
-.devices__list {
+.devices__image:first-child {
+    width: 100%;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.pc-image {
+    position: relative;
+}
+
+.devices__label {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.description {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     width: 40%;
 }
 
-.devices__list ul li {
+.description__item {
     color: #f5c506;
     line-height: 25px;
 }
 
-.devices__list ul li p {
+.description__text {
     color: #a9a9a7;
 }
 
-.bottom {
+.lower-footer {
     height: 64px;
     background-color: #4c4c4c;
     box-shadow: 0 0 15px 1px#000;
@@ -388,10 +406,10 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .devices__list {
+    .description {
         width: 70%;
     }
-    .upper {
+    .upper-footer {
         height: 700px;
     }
 }
@@ -400,7 +418,7 @@ body {
     .navbar {
         width: 100%;
     }
-    .devices__list {
+    .description {
         display: none;
     }
     .cards {
@@ -409,20 +427,25 @@ body {
     .info-units {
         width: 100%;
     }
-    .upper {
+    .upper-footer {
         height: 350px;
     }
     .devices {
         width: 100%;
     }
-    .devices__pc {
+    .devices__image:first-child {
         width: 250px;
     }
-    .devices__tablet {
+    .devices__image:nth-child(2) {
         height: 100px;
     }
-    .devices__phone {
+    .devices__image:last-child {
         width: 30px;
+    }
+    .devices__label {
+        font-size: 14px;
+        top: 20px;
+        left: 5px;
     }
     .cards__text {
         font-size: 22px;
@@ -439,7 +462,7 @@ body {
     .cards__img img {
         width: 100%;
     }
-    .upper__label {
+    .upper-footer__label {
         font-size: 30px;
     }
     .top-section p {
@@ -475,13 +498,13 @@ body {
         width: 70%;
         height: 52px;
     }
-    .navbar__list li {
+    .navbar__unit {
         height: 52px;
     }
-    .header__tagline h1 {
+    .header__title {
         font-size: 19px;
     }
-    .header__tagline img {
+    .header__logo {
         height: 40px;
     }
     .header__row {
@@ -531,7 +554,7 @@ body {
         font-size: 25px;
         padding: 10px;
     }
-    .upper__label {
+    .upper-footer__label {
         padding: 42px 0 20px 0;
     }
     .devices {
@@ -541,26 +564,37 @@ body {
     .devices {
         width: 80%;
     }
-    .devices__pc {
+    .pc-image {
         width: 50%;
     }
-    .devices__tablet {
+    .pc-image {
+        margin-right: 0;
+    }
+    .devices__image:first-child {
+        width: 100%;
+    }
+    .devices__image:nth-child(2) {
         width: 15%;
         height: 15%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
-    .devices__phone {
+    .devices__image:nth-child(3) {
         width: 7%;
         height: 7%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
-    .upper {
+    .devices__label {
+        font-size: 2vw;
+        top: 10%;
+        left: 4%;
+    }
+    .upper-footer {
         height: 100%;
     }
-    .upper {
+    .upper-footer {
         margin-bottom: 20px;
     }
-    .bottom {
+    .lower-footer {
         height: 43px;
     }
     .tagline__logo {
@@ -613,8 +647,11 @@ body {
     .info-panel {
         height: 130px;
     }
-    .upper__label {
+    .upper-footer__label {
         font-size: 25px;
+    }
+    .devices__label {
+        left: 8px;
     }
 }
 
@@ -634,7 +671,7 @@ body {
     .cards__text p {
         font-size: 13px;
     }
-    .upper__label {
+    .upper-footer__label {
         font-size: 18px;
         padding-top: 15px;
     }
